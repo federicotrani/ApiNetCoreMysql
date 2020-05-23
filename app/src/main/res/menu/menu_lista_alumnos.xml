@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_lista_agregar"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Agregar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_lista_actualizar"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="Actualizar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_lista_favoritos"
+        android:title="Solo Favoritos" />
+    <item
+        android:id="@+id/action_lista_salir"
+        android:title="Salir" />
+</menu>
